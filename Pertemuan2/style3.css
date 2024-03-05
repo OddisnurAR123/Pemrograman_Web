@@ -1,0 +1,37 @@
+html, body{
+	margin: 0;
+	padding: 0;
+    background-color: #fca400;
+}
+
+Body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(0, 39, 167);
+	line-height: 1.65;
+	padding-bottom: 1000px;
+}
+
+/*Latihan 1*/
+.container-satu{
+    width: 1000px;
+    font-size: 20px;
+    margin: 50px auto;
+    margin-top: 150px;
+    background-color: #e2e2cc;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas: 'nav main aside';
+    grid-template-columns: 0.4fr 1.4fr 0.4fr;
+}
+
+.sidebar-satu {
+    grid-area: nav;
+    font-family: "Arial", sans-serif;
+    background-color: #fca400 ;
+}
+
+
+.sidebar-dua{
+    grid-area: aside;
+}
