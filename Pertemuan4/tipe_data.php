@@ -58,9 +58,10 @@ $namaLengkap2 = $namaDepan . ' ' . $namaBelakang;
 
 // Menampilkan nama depan, nama belakang, dan nama lengkap
 echo "Nama Depan: {$namaDepan} <br>";
-echo "Nama Belakang: {$namaBelakang} <br>";
-echo "Nama Lengkap: {$namaLengkap} <br>";
-echo "Nama Lengkap 2: {$namaLengkap2} <br><br>";
+echo "Nama Belakang: ' . $namaBelakang . <br>";
+
+echo $namaLengkap;
+
 
 // Meng-Inisialisasi array
 $listMahasiswa = ["Wahid Abdullah", "Elmo Bachtiar", "Lendis Fabri"];
