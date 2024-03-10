@@ -1,6 +1,6 @@
 <?php
 // Saol No 1
-// Mendefinisikan variabel-variabel angka
+// Mendefinisikan variabel-variabel angka (nilai numerik)
 $angka1 = 10;
 $angka2 = 5;
 

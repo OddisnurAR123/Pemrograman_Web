@@ -1,6 +1,6 @@
 <?php
 // Soal no 2
-// Meng-Inisialisasi variabel
+// Meng-Inisialisasi variabel bertipe int
 $a = 10;
 $b = 5;
 
@@ -20,7 +20,7 @@ echo "Variabel e: {$e} <br><br>";
 var_dump($e);
 echo "<br><br>";
 
-// Meng-Inisialisasi nilai-nilai untuk mata pelajaran
+// Meng-Inisialisasi variabel nilai-nilai untuk mata pelajaran bertipe float
 $nilaiMatematika = 5.1;
 $nilaiIPA = 6.7;
 $nilaiBahasaIndonesia = 9.3;

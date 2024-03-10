@@ -27,7 +27,7 @@ echo "Sisa Bagi: " . $sisaBagi . "<br>";
 echo "Pangkat: " . $pangkat . "<br>";
 
 // Soal no 3.2
-// Operasi perbandingan
+// Operasi pembanding
 $hasilSama = $a == $b;
 $hasilTidakSama = $a != $b;
 $hasilLebihKecil = $a < $b;
@@ -35,7 +35,7 @@ $hasilLebihBesar = $a > $b;
 $hasilLebihKecilSama = $a <= $b;
 $hasilLebihBesarSama = $a >= $b;
 
-// Menampilkan hasil operasi perbandingan
+// Menampilkan hasil operasi pembanding
 echo "====================<br>";
 echo "Hasil $a == $b yaitu " . ($hasilSama ? "true" : "false") . "<br>"; 
 echo "Hasil $a != $b yaitu " . ($hasilTidakSama ? "true" : "false") . "<br>"; 
@@ -75,11 +75,11 @@ echo "Hasil dari $a /= $b adalah " . $operator4 . "<br>";
 echo "Hasil dari $a %= $b adalah " . $operator5 . "<br>";
 
 // Soal no 3.5
-// Operasi identitas
+// Operasi identik
 $hasilIdektik = $a === $b;
 $hasilTidakIdekntik = $a !== $b;
 
-// Menampilkan hasil operasi identitas
+// Menampilkan hasil operasi identik
 echo "====================<br>";
 echo "$a apakah identik dengan $b ? " . ($hasilIdektik ? "true" : "false") . "<br>"; 
 echo "$a apakah tidak identik dengan $b ? " . ($hasilTidakIdekntik ? "true" : "false") . "<br><br>";

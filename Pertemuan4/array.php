@@ -1,6 +1,6 @@
 <?php
 // Soal no 5.1
-// Daftar nilai siswa
+// Array daftar nilai siswa
 $nilaiSiswa = [85, 92, 78, 64, 90, 55, 88, 79, 70, 96];
 
 // Array kosong untuk menyimpan nilai siswa yang lulus
@@ -21,7 +21,7 @@ foreach ($nilaiSiswa as $nilai) {
 echo "Daftar nilai siswa yang lulus: " . implode(', ', $nilaiLulus). "<br><br>";
 
 // Soal no 5.2
-// Daftar karyawan beserta pengalaman kerja (dalam tahun)
+// Array multidimensi daftar karyawan beserta pengalaman kerja (dalam tahun)
 $daftarKaryawan = [
     ['Alice', 7],
     ['Bob', 3],
@@ -49,7 +49,7 @@ echo "Daftar karyawan dengan pengalaman kerja lebih dari 5 tahun: " . implode(',
 $karyawanPengalamanLimaTahun) . "<br><br>";
 
 // Soal no 5.3
-// Daftar nilai mahasiswa untuk setiap mata kuliah
+// Array asosoatif daftar nilai mahasiswa untuk setiap mata kuliah
 $daftarNilai = [
     'Matematika' => [
         ['Alice', 85],
@@ -86,7 +86,7 @@ foreach ($daftarNilai[$mataKuliah] as $nilai) {
 echo "<br><br><br><center>====================================================================================</center><br>";
 echo "<center>Soal Cerita 5.4</center><br>";
 echo "<center>====================================================================================</center><br>";
-// Daftar nilai siswa
+// Array daftar nilai siswa
 $daftarNilai = [
     ['Alice', 85],
     ['Bob', 92],
