@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+  background-color: #F9DEDE;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #DFADAD;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: larger;
+}
+.login{
+  font-weight: bold;
+  margin-right: 40px;
+}
+.subjudul{
+    font-weight: bold;
+
+}
+.logo{
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+
+  .slide {
+    display: none;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  .dot-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .container-service{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  .tombol{
+    padding: 20px 40px; background-color: black;
+    color: white;
+    border-radius: 200px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .tombol:hover {
+    color: black;
+    background-color: white; 
+}
+  .service{
+    width: 200px;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .contact{
+    padding: 30px 170px;
+    background-color: #DFADAD;
+    color: white;
+  }
+
+  .isi{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .keterangan{
+    padding: 20px;
+    max-width: 40%;
+  }
+
+  .jarak{
+    margin-bottom: 10px;
+  }
+
+  .container-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 10%;
+
+}
+input{
+  margin-bottom: 20px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup-content {
+  background-color: white;
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.error-message {
+  background-color: #ffcccc;
+  color: #cc0000;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cc0000;
+  border-radius: 5px;
+}
