@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set karakter encoding -->
+    <meta charset="UTF-8">
+    <!-- Menetapkan viewport untuk responsifitas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul dokumen -->
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Formulir untuk proses login -->
+    <form action="sessionLoginProses.php" method="post">
+        <!-- Tabel untuk tata letak elemen formulir -->
+        <table>
+            <!-- Baris pertama: input untuk username -->
+            <tr>
+                <!-- Sel untuk label "Username" -->
+                <td>Username</td>
+                <!-- Sel untuk input teks untuk username -->
+                <td><input type="text" name="username" size="20"></td>
+            </tr>
+            <!-- Baris kedua: input untuk password -->
+            <tr>
+                <!-- Sel untuk label "Password" -->
+                <td>Password</td>
+                <!-- Sel untuk input password -->
+                <td><input type="password" name="password" size="20"></td>
+            </tr>
+            <!-- Baris ketiga: tombol submit -->
+            <tr>
+                <!-- Sel kosong untuk mempertahankan tata letak -->
+                <td>&nbsp;</td>
+                <!-- Sel untuk tombol submit -->
+                <td><input type="submit" value="Log in" name="Login"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

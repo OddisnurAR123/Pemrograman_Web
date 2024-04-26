@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bagian head digunakan untuk memasukkan metadata, judul halaman, dan link ke stylesheet CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pembelian Buku</title> <!-- Judul halaman yang muncul di tab browser -->
+</head>
+<body>
+    <!-- Formulir yang mengirim data ke file prosesBeli.php menggunakan metode POST -->
+    <form action="prosesBeli.php" method="POST">
+        <!-- Input untuk jumlah novel yang dibeli -->
+        <p> Jumlah Novel yang dibeli :
+            <!-- Input text untuk jumlah novel yang dibeli, defaultnya 0, dengan ukuran tampilan 2 karakter -->
+            <input type="text" name="beliNovel" value="0" size="2"> 
+        </p>
+
+        <!-- Input untuk jumlah buku teks yang dibeli -->
+        <p> Jumlah Buku Teks yang dibeli :
+            <!-- Input text untuk jumlah buku teks yang dibeli, defaultnya 0, dengan ukuran tampilan 2 karakter -->
+            <input type="text" name="beliBuku" value="0" size="2"> 
+        </p>
+
+        <!-- Tombol untuk mengirim formulir -->
+        <input type="submit" value="Beli"> <!-- Tombol kirim yang akan mengirimkan data formulir ke prosesBeli.php -->
+    </form>
+</body>
+</html>
