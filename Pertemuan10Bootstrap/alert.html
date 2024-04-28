@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Elemen title ini menentukan judul halaman yang akan ditampilkan pada tab browser atau saat halaman ditandai. -->
+    <title>Pengenalan Bootstrap</title>
+    <!-- Menyisipkan Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Menyisipkan JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/propper.js/1.16.0/umd/propper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.min.js"></script>
+</head>
+    <body>
+        <div class=" container">
+             <!-- Elemen heading tingkat kedua untuk memberikan judul pada bagian alert -->
+            <h2>Alerts</h2>
+            <!-- Div untuk alert sukses dengan kelas Bootstrap yang tepat, dan memperbaiki kesalahan penulisan "alert" -->
+            <div class="laert alert-success alert-dismissible">
+                 <!-- Tombol untuk menutup alert -->
+                <button type="button" class="close" data-dismiss="alert-dismissable">&times;</button>
+                <!-- Konten alert dengan teks yang tebal -->
+                <strong>Success!</strong> ini adalah alert success
+            </div>
+            <!-- Div untuk alert info dengan kelas Bootstrap yang tepat, dan memperbaiki kesalahan penulisan "alert" -->
+            <div class="laert alert-info alert-dismissible">
+                <!-- Tombol untuk menutup alert -->
+                <button type="button" class="close" data-dismiss="alert-dismissable">&times;</button>
+                <!-- Konten alert dengan teks yang tebal -->
+                <strong>Info!</strong> ini adalah alert info
+            </div>
+            <!-- Div untuk alert peringatan dengan kelas Bootstrap yang tepat, dan memperbaiki kesalahan penulisan "alert" -->
+            <div class="laert alert-warning alert-dismissible">
+                <!-- Tombol untuk menutup alert -->
+                <button type="button" class="close" data-dismiss="alert-dismissable">&times;</button>
+                <!-- Konten alert dengan teks yang tebal -->
+                <strong>Warning!</strong> ini adalah alert warning
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <style>
+        .jumbotron {
+            background-size: cover;
+            color: black;
+        }
+        .jumbotron h1, .jumbotron p {
+            background-color:rgba(209, 221, 98, 0.2);
+            display: inline-block;
+            padding: 10px;
+        }
+        footer {
+            background-color: #f9faf8;
+        }
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Oddis Nur Alifathur Razaaq</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Beranda <span class="sr-only">(saat ini)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Dinonaktifkan</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Selamat Datang!</h1>
+        <p class="lead">Ini adalah contoh halaman web menggunakan Bootstrap.</p>
+        <hr class="my-4">
+        <p>Halaman ini memiliki Navbar, Jumbotron, dan Gambar sebagai elemen utama.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Pelajari Lebih Lanjut</a>
+    </div>
+
+    <!-- Gambar -->
+    <div class="container text-center my-5">
+        <h2>Galeri Gambar</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="Tugas.jpg" class="img-fluid rounded mb-4" alt="Contoh Gambar 1">
+                <p>Deskripsi Gambar 1</p>
+            </div>
+            <div class="col-md-4">
+                <img src="Tugas.jpg" class="img-fluid rounded mb-4" alt="Contoh Gambar 2">
+                <p>Deskripsi Gambar 2</p>
+            </div>
+            <div class="col-md-4">
+                <img src="Tugas.jpg" class="img-fluid rounded mb-4" alt="Contoh Gambar 3">
+                <p>Deskripsi Gambar 3</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="container mt-5">
+        <h2>Informasi Kartu</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="Tugas.jpg" class="card-img-top rounded" alt="Gambar Kartu 1">
+                <div class="card-body">
+                    <h5 class="card-title">Judul Kartu 1</h5>
+                    <p class="card-text">Ini adalah kartu yang lebih panjang dengan teks pendukung di bawahnya sebagai pengantar alami ke konten tambahan.</p>
+                    <a href="#" class="btn btn-primary">Ke suatu tempat</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Tugas.jpg" class="card-img-top rounded" alt="Gambar Kartu 2">
+                <div class="card-body">
+                    <h5 class="card-title">Judul Kartu 2</h5>
+                    <p class="card-text">Kartu ini memiliki teks pendukung di bawahnya sebagai pengantar alami ke konten tambahan.</p>
+                    <a href="#" class="btn btn-primary">Ke suatu tempat</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Tugas.jpg" class="card-img-top rounded" alt="Gambar Kartu 3">
+                <div class="card-body">
+                    <h5 class="card-title">Judul Kartu 3</h5>
+                    <p class="card-text">Ini adalah kartu yang lebih lebar dengan teks pendukung di bawahnya sebagai pengantar alami ke konten tambahan.</p>
+                    <a href="#" class="btn btn-primary">Ke suatu tempat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Konten Footer</h5>
+                    <p>Di sini Saya sedang membuat sebuah halaman web statis dengan menggunakan Bootstrap. .</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Tautan</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#!" class="text-dark">Tautan 1</a></li>
+                        <li><a href="#!" class="text-dark">Tautan 2</a></li>
+                        <li><a href="#!" class="text-dark">Tautan 3</a></li>
+                        <li><a href="#!" class="text-dark">Tautan 4</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Tautan</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#!" class="text-dark">Tautan 1</a></li>
+                        <li><a href="#!" class="text-dark">Tautan 2</a></li>
+                        <li><a href="#!" class="text-dark">Tautan 3</a></li>
+                        <li><a href="#!" class="text-dark">Tautan 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(191, 59, 142, 0.2);">
+            © 2024 Hak Cipta:
+            <a class="text-dark" href="#">Oddis Nur Alifathur Razaaq</a>
+        </div>
+    </footer>
+</body>
+</html>

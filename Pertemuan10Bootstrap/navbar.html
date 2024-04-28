@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Elemen title ini menentukan judul halaman yang akan ditampilkan pada tab browser atau saat halaman ditandai. -->
+    <title>Pengenalan Bootstrap</title>
+    <!-- Menyisipkan Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Menyisipkan JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/propper.js/1.16.0/umd/propper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Elemen heading tingkat kedua untuk memberikan judul pada bagian navbar -->
+        <h2>Membuat Navbar</h2>
+    </div>
+    <!-- Navbar Bootstrap yang diperluas pada layar kecil (sm) dengan latar belakang terang dan teks navbar berwarna terang -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <!-- Daftar navigasi dalam navbar -->
+        <ul class="navbar-nav">
+            <!-- Elemen daftar navigasi dengan item aktif -->
+            <li class="nav-item active">
+                <!-- Tautan navigasi dengan kelas 'nav-link' -->
+                <a class="nav-link" href="#">Active</a>
+            </li>
+            <!-- Elemen daftar navigasi dengan item tidak aktif -->
+            <li class="nav-item">
+                 <!-- Tautan navigasi dengan kelas 'nav-link' -->
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <!-- Elemen daftar navigasi dengan item tidak aktif -->
+            <li class="nav-item">
+                <!-- Tautan navigasi dengan kelas 'nav-link' -->
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <!-- Elemen daftar navigasi dengan item nonaktif (disabled) -->
+            <li class="nav-item active">
+                <!-- Tautan navigasi dengan kelas 'nav-link' dan 'disabled' -->
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
